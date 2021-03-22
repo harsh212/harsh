@@ -71,7 +71,7 @@ class About extends Component
     render() {
         return(
             <div id='home'>
-                <section>
+                <section data-aos='fade-down' data-aos-duration='800'>
                     <img class="img-circle image"  src={MyImage} alt="Harsh Shukla " width="250vw" height="200vw"></img><br/>
                     <a href="https://www.facebook.com/sunita.shukla.336/" target="_blank" class="fa fa-facebook img-circle"></a>
                     <a href="https://twitter.com/Harsh_s212" target="_blank" class="fa fa-twitter"></a>
@@ -81,7 +81,7 @@ class About extends Component
                     <h2> Studying CSE <br/><br/>Jaypee Institue of Information Technology <br/><br/> Noida, Delhi NCR (201309)</h2>
                     <h2>I'm <small><span className='txt-rotate' data-period='2000' data-rotate='["Focused","Passionate","Enthusiastic","Learner","Harsh"]'></span></small></h2>
                     <br/><br/><br/>
-                    <p>Scroll down ! ! !<span style={{marginLeft: "20px"}} class="glyphicon glyphicon-arrow-down"> </span></p>
+                    <p>Scroll down Slowly! ! !</p>
                 </section>
             </div>
         );

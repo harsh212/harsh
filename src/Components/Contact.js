@@ -7,7 +7,7 @@ class Contact extends Component
     render()
     {
         return(
-            <div className="container-fluid" id="contact">
+            <div className="container-fluid" id="contact" data-aos='zoom-in-up' data-aos-duration='800'>
                 <form className="form-page"action="mailto:harsh.307.shuklaaa@gmail.com" method="post" enctype="text/plain" >
                     <div className="form">
                         <div><label for="name"><span className="glyphicon glyphicon-user"></span></label><input type="text" name="name" placeholder="Your Name here. . . " required/></div>

@@ -6,40 +6,40 @@ class Resume extends Component
 
     render(){
         return(
-            <div className="container-fluid" id="resume">
+            <div className="container-fluid" id="resume" >
                 <div className="row">
-                    <div className="col-sm-3 flip-box">
+                    <div className="col-sm-3 flip-box" data-aos='flip-left' data-aos-duration='800'>
                         <div className="toprow"><h1>Selected Works</h1></div>
                         <table className="table table-hover">
                         <tr className="container-fluid">
+                            <td><strong>Quiz-Application</strong><blockquote>
+                                    <ul>
+                                        <li>A web-based project which provide user an interactive environment where user can 
+                                            self assess himself.  </li>
+                                    </ul>
+                                    </blockquote>
+                            </td>
+                        </tr> 
+                        <tr className="container-fluid">
                             <td><strong>Meet-Application</strong><blockquote>
                                     <ul>
-                                        <li>A Real Time Meet Application containing Video Conferencing, Text
+                                        <li>A Real Time Meeting  Web-Application containing Video Conferencing, Text
                                             Chat and White Board Sharing. </li>
                                     </ul>
                                     </blockquote>
                             </td>
                         </tr>
                         <tr className="container-fluid">
-                            <td><strong>Overseas Employment Placement</strong><blockquote>
-                                    <ul>
-                                        <li>A web-based project Overseas Employment Placement which monitors the placement 
-                                            activities of companies and aspirants look for jobs as per their skills </li>
-                                    </ul>
-                                    </blockquote>
-                            </td>
-                        </tr> 
-                        <tr className="container-fluid">
                             <td><strong>ToMYSQL</strong><blockquote>
                                     <ul>
-                                        <li>Cross Platform Software ToMYSQL that converts MS Excel spreadsheet into MYSQL Database </li>
+                                        <li>Cross Platform Software ToMYSQL that converts MS Excel spreadsheet to MYSQL Database </li>
                                     </ul>
                                     </blockquote>
                             </td>
                         </tr>                                     
                         </table>
                     </div>
-                    <div className="col-sm-3 flip-box">
+                    <div className="col-sm-3 flip-box" data-aos='flip-right' data-aos-duration='800'>
                         <div className="toprow"><h1>Knows About</h1></div>
                         <table className="table table-hover">
                         <tr className="container-fluid">
@@ -57,7 +57,7 @@ class Resume extends Component
                         <tr className="container-fluid">
                                 <td>Bootstrap3, MYSQL</td>
                                 <td className="progress">
-                                    <span className="progress-bar progress-bar-info" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}>Familiar</span>
+                                    <span className="progress-bar progress-bar-info" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>Experienced</span>
                                 </td>
                         </tr>
                         <tr className="container-fluid">

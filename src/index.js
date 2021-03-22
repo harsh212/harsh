@@ -7,11 +7,13 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import {Link,BrowserRouter } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init();
 ReactDOM.render(
   <div className="container-fluid">
     <BrowserRouter>
-      <div className="row">
+      <div className="row" data-aos='fade-down' data-aos-duration='800'>
         <div className="col-sm-12 right">
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
