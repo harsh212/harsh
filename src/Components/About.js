@@ -3,6 +3,7 @@ import './index.css'
 import MyImage from './../myimage.jpg';
 class TxtRotate {
     constructor(el, toRotate, period) {
+        this.state={isLoading:true};
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -47,6 +48,7 @@ class TxtRotate {
 class About extends Component
 {
     componentDidMount() {
+        this.setState({isLoading:false});
         var elements=document.getElementsByClassName('txt-rotate');
     for(let i=0;i<elements.length;i++)
     {
@@ -70,6 +72,7 @@ class About extends Component
     }
     render() {
         return(
+            this.state.isLoading ?<p>Hello Harsh</p>:
             <div id='home'>
                 <section data-aos='fade-down' data-aos-duration='800'>
                     <img class="img-circle image"  src={MyImage} alt="Harsh Shukla " width="250vw" height="200vw"></img><br/>
