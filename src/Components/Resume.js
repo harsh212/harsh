@@ -8,6 +8,7 @@ class Resume extends Component
         return(
             <div className="container-fluid" id="resume" >
                 <div className="row">
+                    <div className='col-sm-2'></div>
                     <div className="col-sm-3 flip-box" data-aos='flip-left' data-aos-duration='800'>
                         <div className="toprow"><h1>Selected Works</h1></div>
                         <table className="table table-hover">
@@ -39,6 +40,7 @@ class Resume extends Component
                         </tr>                                     
                         </table>
                     </div>
+                    <div className='col-sm-2'></div>
                     <div className="col-sm-3 flip-box" data-aos='flip-right' data-aos-duration='800'>
                         <div className="toprow"><h1>Knows About</h1></div>
                         <table className="table table-hover">

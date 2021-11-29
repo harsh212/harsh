@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import './index.css'
 import MyImage from './../myimage.jpg';
+import { Spin } from "antd";
 class TxtRotate {
     constructor(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -81,11 +82,7 @@ class About extends Component
             this.state.isLoading ? 
             <div id="root">
                 <div class="divLoader">
-                    <svg class="svgLoader" viewBox="0 0 1024 1024" width="10em" height="10em">
-                        <path fill="lightblue"
-                        d="PATH FOR THE LOADER ICON"
-                        />
-                    </svg>
+                    <Spin size="large" />
                 </div>
             </div>
             :
