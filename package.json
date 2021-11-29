@@ -17,9 +17,18 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
-  "keywords": ["Harsh Shukla","Harsh","Harsh JIIT","Harsh Shukla Jiit","Harsh Shukla Portfolio"],
+  "keywords": [
+    "Harsh Shukla",
+    "Harsh",
+    "Harsh JIIT",
+    "Harsh Shukla Jiit",
+    "Harsh Shukla Portfolio"
+  ],
   "description": "Harsh Shukla Portfolio",
-  "author": {"name": "Harsh Shukla","email": "harsh.307.shuklaaa@gmail.com"},
+  "author": {
+    "name": "Harsh Shukla",
+    "email": "harsh.307.shuklaaa@gmail.com"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
