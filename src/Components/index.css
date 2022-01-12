@@ -20,6 +20,13 @@
     color: white;
 
 }
+.fa,.fa
+{
+    font-size: large;
+    padding: 1vw;
+    color: white;
+
+}
 .fa:hover
 {
     color: aqua;
